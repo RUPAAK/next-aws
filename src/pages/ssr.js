@@ -19,7 +19,7 @@ export default function SSR({ formattedDate }) {
       timeStyle: "long",
     }).format(renderDate);
     console.log(
-      `SSR ran on ${formattedDate}. This will be logged in CloudWatch.`
+      `SSR ran on ${formattedDate}. This  will be logged in CloudWatch.`
     );
     return { props: { formattedDate } };
   }
